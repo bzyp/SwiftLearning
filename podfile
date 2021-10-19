@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+target 'swiftDemo' do
+  # 使用use_frameworks! 表示使用动态库， 不使用的库就添加在use_framworks！之前
+
+  use_frameworks!
+  
+  pod 'RxSwift', '6.2.0'
+  pod 'RxCocoa', '6.2.0'
+  
+  pod 'SnapKit', '~> 5.0.0'
+
+    
+  # Pods for swiftDemo
+
+
+
+end
