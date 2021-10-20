@@ -12,7 +12,6 @@ class MainTableBarController: UITabBarController {
     var homeNav: MainNavigationViewController?
     var mvvmNav: MainNavigationViewController?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,5 +30,4 @@ class MainTableBarController: UITabBarController {
         nav.title = "test"
         return nav
     }
-
 }

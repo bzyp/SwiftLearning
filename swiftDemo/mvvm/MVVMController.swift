@@ -18,7 +18,7 @@ class MVVMController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.setupUI()
     }
     
@@ -38,9 +38,5 @@ class MVVMController: UIViewController {
                 print("点击了测试按钮")
             })
             .disposed(by: disposeBag)
-        
-        
-        
     }
-
 }

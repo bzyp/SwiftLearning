@@ -38,7 +38,6 @@ class HomeTableViewCell: UITableViewCell {
     
     func setupUI() {
         self.contentView.addSubview(titleLabel)
-//        let names = ["adad", "adadqqssd"]
     }
     
     @objc func titleLabelTap() {

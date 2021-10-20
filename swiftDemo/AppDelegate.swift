@@ -7,13 +7,13 @@
 
 import UIKit
 
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-    var rootTableBarVC: MainTableBarController?
     
+    //MARK: 测试UI
+    var window: UIWindow?
+    
+    var rootTableBarVC: MainTableBarController?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -27,8 +27,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         
         window?.makeKeyAndVisible();
+    
+        
+        //MARK: 测试基础知识
+        let function = Function.init()
+        function.test()
         
         return true
     }
+    
+    
+    
 
 }

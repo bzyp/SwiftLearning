@@ -12,8 +12,6 @@ class MainNavigationViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NSLog("MainNavigationViewController")
-
         self.view.backgroundColor = .red
     }
-
 }
