@@ -4,6 +4,7 @@
 //
 //  Created by 镭速iOS on 10/20/21.
 //  swift函数
+//  https://swiftgg.gitbook.io/swift/swift-jiao-cheng/06_functions#function-types-as-parameter-types
 
 import UIKit
 
@@ -12,9 +13,6 @@ class Function: NSObject {
     override init() {
         super.init()
     }
-    
-    
-    var name: String = ""
     
     /// 测试，定义一个无返回值无参数的函数
     /// 没有明确定义返回类型的函数的返回一个 Void 类型特殊值，该值为一个空元组，写成 ()
@@ -39,7 +37,21 @@ class Function: NSObject {
         let mathFunction: (Int, Int) -> Int = addTowInts
         print("result :\(mathFunction(19, 22))")
         
+        let anotherMathFunction = addTowInts //被推断为 (Int, Int) -> Int 类型
+        print("result :\(anotherMathFunction(11,33))")
         
+        printMathResult(addTowInts, a: 11, b: 19)
+        printMathResult(mathFunction, a: 11, b: 118)
+        printMathResult(anotherMathFunction, a: 11, b: 17)
+        
+        let value = 10,value1 = 20
+        let testFunc = chooseStepFunc(backword: true)
+        let testFunc1 = chooseStepFunc(backword: false)
+        print("chooseRusult = \(testFunc(value)),\(testFunc1(value1))")
+    
+        let testFunc2 = chooseStepFunction(backward: true)
+        let testFunc3 = chooseStepFunction(backward: false)
+        print("chooseRusult = \(testFunc2(value)),\(testFunc3(value1))")
         
     }
     
@@ -101,6 +113,7 @@ class Function: NSObject {
     
     //输入输出参数
     //输入输出参数不能有默认值，而且可变参数不能用 inout 标记。
+    //https://swiftgg.gitbook.io/swift/yu-yan-can-kao/06_declarations#in-out-parameters
     func swap(a: inout Int, b: inout Int) {
         let temp = a;
         a = b
@@ -112,8 +125,37 @@ class Function: NSObject {
         return a + b
     }
     
-
-
+    //函数类型作为参数类型
+    func printMathResult(_ mathFunc:(Int, Int) -> Int,a: Int, b: Int) {
+        print("result:\(mathFunc(a,b))")
+    }
+    
+    //函数类型作为返回类型
+    func stepForward(_ input: Int) -> Int {
+        print("stepForward")
+        return input + 1
+    }
+    
+    func stepBackward(_ input: Int) -> Int {
+        print("stepBackward")
+        return input - 1
+    }
+    
+    func chooseStepFunc(backword: Bool) -> (Int) -> Int {
+        return backword ? stepBackward : stepForward
+    }
+    
+    //嵌套函数
+    //函数定义在别的函数体中，称作 嵌套函数（nested functions）
+    func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+        func stepForword(input: Int) -> Int {
+            return input + 1
+        }
+        func stepBackward(input: Int) -> Int {
+            return input - 1
+        }
+        return backward ? stepBackward : stepForword
+    }
     
 }
 
