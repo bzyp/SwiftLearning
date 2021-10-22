@@ -18,6 +18,7 @@ class Function: NSObject {
     /// 没有明确定义返回类型的函数的返回一个 Void 类型特殊值，该值为一个空元组，写成 ()
     /// 返回值可以被忽略，但定义了有返回值的函数必须返回一个值，如果在函数定义底部没有返回任何值，将导致编译时错误。
     func test() {
+        print("\(NSStringFromClass(Block.self))")
         print(greet(person: "mj"))
         print(introduce(name: "simon", age: 18))
         print("找出最大值最小值：\(minMax(arrar: [19,66,1,3,99,66,31]) ?? (0, 0))")

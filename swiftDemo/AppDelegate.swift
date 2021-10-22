@@ -27,6 +27,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let function = Function.init()
         function.test()
         
+        let block = Block.init()
+        block.test()
+        
+        let basic = Basic.init()
+        basic.test()
+        
         return true
     }
     
