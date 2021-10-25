@@ -187,6 +187,17 @@ class Basic: NSObject {
     }
     
     //使用断言进行调试
+    //你可以调用 Swift 标准库的 assert(_:_:file:line:) 函数来写一个断言。向这个函数传入一个结果为 true 或者 false 的表达式以及一条信息，当表达式的结果为 false 的时候这条信息会被显示：
+    private func test7() {
+        let age = -5
+        assert(age >= 3,"错误的年龄")//false 断言会被执行
+    }
     
-    
+    //强制执行先决条件
+    //当一个条件可能为假，但是继续执行代码要求条件必须为真的时候，需要使用先决条件。例如使用先决条件来检查是否下标越界，或者来检查是否将一个正确的参数传给函数。
+    //你可以使用全局 precondition(_:_:file:line:) 函数来写一个先决条件。向这个函数传入一个结果为 true 或者 false 的表达式以及一条信息，当表达式的结果为 false 的时候这条信息会被显示：
+    func test8() {
+        let index = -1
+        precondition(index > 0,"Index must be greater than zero.")
+    }
 }
