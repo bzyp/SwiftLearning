@@ -33,6 +33,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let basic = Basic.init()
         basic.test()
         
+        let set = SwiftSet.init()
+        set.test()
+        
+        let contorl = SwiftControl()
+        contorl.test()
+        
+        let enmu = SwiftEnum()
+        enmu.test()
+        
+        
         return true
     }
     

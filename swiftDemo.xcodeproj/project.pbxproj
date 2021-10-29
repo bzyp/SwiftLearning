@@ -11,12 +11,17 @@
 		B924256726FDB725009D03F2 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924256626FDB725009D03F2 /* MVVMViewModel.swift */; };
 		B92904DB2721066B0035728F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904DA2721066B0035728F /* Block.swift */; };
 		B9415EF1272665DB00DE6EE2 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF0272665DB00DE6EE2 /* Operators.swift */; };
-		B9415EF32726AC7400DE6EE2 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF22726AC7400DE6EE2 /* String.swift */; };
+		B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF22726AC7400DE6EE2 /* SwiftString.swift */; };
+		B974F30D272A41D80086F558 /* SwiftEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974F30C272A41D80086F558 /* SwiftEnum.swift */; };
+		B974F30F272A57C10086F558 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974F30E272A57C10086F558 /* SwiftClass.swift */; };
+		B974F311272A95C90086F558 /* SwiftProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974F310272A95C90086F558 /* SwiftProperty.swift */; };
 		B977DE34271560800029BC8E /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B977DE33271560800029BC8E /* MVVMView.swift */; };
 		B97B51AA269D34BE0088B3B8 /* MainTableBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97B51A9269D34BE0088B3B8 /* MainTableBarController.swift */; };
 		B97B51AF269D35B60088B3B8 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97B51AE269D35B60088B3B8 /* MainNavigationViewController.swift */; };
 		B98556FE26A6A0DB00CEEA75 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98556FD26A6A0DB00CEEA75 /* HomeTableViewCell.swift */; };
+		B98D660A27292A98004B654E /* SwiftControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D660927292A98004B654E /* SwiftControl.swift */; };
 		B98EDCFD26FC234A00B45BBF /* MVVMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EDCFC26FC234A00B45BBF /* MVVMController.swift */; };
+		B9905F7C2727F19400B2C989 /* SwiftSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9905F7B2727F19400B2C989 /* SwiftSet.swift */; };
 		B9A1A2B4271FB75C0032D5AC /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1A2B3271FB75C0032D5AC /* Function.swift */; };
 		B9AB7625269E7EED00365DE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AB7624269E7EED00365DE7 /* HomeViewController.swift */; };
 		B9D613562616BF0B00A48B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D613552616BF0B00A48B63 /* AppDelegate.swift */; };
@@ -51,12 +56,17 @@
 		B924256626FDB725009D03F2 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		B92904DA2721066B0035728F /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		B9415EF0272665DB00DE6EE2 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		B9415EF22726AC7400DE6EE2 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B9415EF22726AC7400DE6EE2 /* SwiftString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftString.swift; sourceTree = "<group>"; };
+		B974F30C272A41D80086F558 /* SwiftEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnum.swift; sourceTree = "<group>"; };
+		B974F30E272A57C10086F558 /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		B974F310272A95C90086F558 /* SwiftProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProperty.swift; sourceTree = "<group>"; };
 		B977DE33271560800029BC8E /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		B97B51A9269D34BE0088B3B8 /* MainTableBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableBarController.swift; sourceTree = "<group>"; };
 		B97B51AE269D35B60088B3B8 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		B98556FD26A6A0DB00CEEA75 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B98D660927292A98004B654E /* SwiftControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftControl.swift; sourceTree = "<group>"; };
 		B98EDCFC26FC234A00B45BBF /* MVVMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
+		B9905F7B2727F19400B2C989 /* SwiftSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSet.swift; sourceTree = "<group>"; };
 		B9A1A2B3271FB75C0032D5AC /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		B9AB7624269E7EED00365DE7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B9D613522616BF0B00A48B63 /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,9 +135,14 @@
 			children = (
 				B9F24FBC272263BE00EE39BC /* Basic.swift */,
 				B9415EF0272665DB00DE6EE2 /* Operators.swift */,
-				B9415EF22726AC7400DE6EE2 /* String.swift */,
+				B9415EF22726AC7400DE6EE2 /* SwiftString.swift */,
+				B9905F7B2727F19400B2C989 /* SwiftSet.swift */,
+				B98D660927292A98004B654E /* SwiftControl.swift */,
 				B9A1A2B3271FB75C0032D5AC /* Function.swift */,
 				B92904DA2721066B0035728F /* Block.swift */,
+				B974F30C272A41D80086F558 /* SwiftEnum.swift */,
+				B974F30E272A57C10086F558 /* SwiftClass.swift */,
+				B974F310272A95C90086F558 /* SwiftProperty.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -381,8 +396,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9A1A2B4271FB75C0032D5AC /* Function.swift in Sources */,
-				B9415EF32726AC7400DE6EE2 /* String.swift in Sources */,
+				B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */,
 				B9F24FBD272263BE00EE39BC /* Basic.swift in Sources */,
+				B98D660A27292A98004B654E /* SwiftControl.swift in Sources */,
 				B92904DB2721066B0035728F /* Block.swift in Sources */,
 				B97B51AA269D34BE0088B3B8 /* MainTableBarController.swift in Sources */,
 				B98556FE26A6A0DB00CEEA75 /* HomeTableViewCell.swift in Sources */,
@@ -390,8 +406,12 @@
 				B977DE34271560800029BC8E /* MVVMView.swift in Sources */,
 				B98EDCFD26FC234A00B45BBF /* MVVMController.swift in Sources */,
 				B97B51AF269D35B60088B3B8 /* MainNavigationViewController.swift in Sources */,
+				B9905F7C2727F19400B2C989 /* SwiftSet.swift in Sources */,
+				B974F30F272A57C10086F558 /* SwiftClass.swift in Sources */,
+				B974F30D272A41D80086F558 /* SwiftEnum.swift in Sources */,
 				B9D613562616BF0B00A48B63 /* AppDelegate.swift in Sources */,
 				B9AB7625269E7EED00365DE7 /* HomeViewController.swift in Sources */,
+				B974F311272A95C90086F558 /* SwiftProperty.swift in Sources */,
 				B924256726FDB725009D03F2 /* MVVMViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

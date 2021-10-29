@@ -178,7 +178,7 @@ class Basic: NSObject {
         }
         
         do {
-            try canThrowAnError()
+//            try canThrowAnError() //注释，为了运行时不跳进canThrowAnError（）
         } catch error.error {
             print(error.error)
         } catch {
