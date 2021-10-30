@@ -60,7 +60,7 @@ class Block: NSObject {
         //尾随闭包
         //当闭包非常长以至于不能在一行中进行书写时，尾随闭包变得非常有用
         //例子中，通过尾随闭包语法，优雅地在函数后封装了闭包的具体功能，而不再需要将整个闭包包裹在 map(_:) 方法的括号内
-        let digitNames = [    0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"]
+        let digitNames = [0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"]
         let numbers = [16, 58, 510]
         let strings = numbers.map { (number) -> String in
             var number = number
