@@ -19,6 +19,8 @@
 		B977DE34271560800029BC8E /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B977DE33271560800029BC8E /* MVVMView.swift */; };
 		B97B51AA269D34BE0088B3B8 /* MainTableBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97B51A9269D34BE0088B3B8 /* MainTableBarController.swift */; };
 		B97B51AF269D35B60088B3B8 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97B51AE269D35B60088B3B8 /* MainNavigationViewController.swift */; };
+		B97FD11D273CEFEC00B72E7D /* SwiftInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97FD11C273CEFEC00B72E7D /* SwiftInheritance.swift */; };
+		B97FD11F273D0F2C00B72E7D /* SwiftInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97FD11E273D0F2C00B72E7D /* SwiftInit.swift */; };
 		B98556FE26A6A0DB00CEEA75 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98556FD26A6A0DB00CEEA75 /* HomeTableViewCell.swift */; };
 		B98D660A27292A98004B654E /* SwiftControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D660927292A98004B654E /* SwiftControl.swift */; };
 		B98EDCFD26FC234A00B45BBF /* MVVMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EDCFC26FC234A00B45BBF /* MVVMController.swift */; };
@@ -65,6 +67,8 @@
 		B977DE33271560800029BC8E /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		B97B51A9269D34BE0088B3B8 /* MainTableBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableBarController.swift; sourceTree = "<group>"; };
 		B97B51AE269D35B60088B3B8 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		B97FD11C273CEFEC00B72E7D /* SwiftInheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInheritance.swift; sourceTree = "<group>"; };
+		B97FD11E273D0F2C00B72E7D /* SwiftInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInit.swift; sourceTree = "<group>"; };
 		B98556FD26A6A0DB00CEEA75 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		B98D660927292A98004B654E /* SwiftControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftControl.swift; sourceTree = "<group>"; };
 		B98EDCFC26FC234A00B45BBF /* MVVMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				B974F30E272A57C10086F558 /* SwiftClass.swift */,
 				B974F310272A95C90086F558 /* SwiftProperty.swift */,
 				B974EAB2273BBD0500B41015 /* SwiftMethod.swift */,
+				B97FD11C273CEFEC00B72E7D /* SwiftInheritance.swift */,
+				B97FD11E273D0F2C00B72E7D /* SwiftInit.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -402,6 +408,7 @@
 				B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */,
 				B9F24FBD272263BE00EE39BC /* Basic.swift in Sources */,
 				B98D660A27292A98004B654E /* SwiftControl.swift in Sources */,
+				B97FD11D273CEFEC00B72E7D /* SwiftInheritance.swift in Sources */,
 				B92904DB2721066B0035728F /* Block.swift in Sources */,
 				B97B51AA269D34BE0088B3B8 /* MainTableBarController.swift in Sources */,
 				B98556FE26A6A0DB00CEEA75 /* HomeTableViewCell.swift in Sources */,
@@ -412,6 +419,7 @@
 				B974EAB3273BBD0500B41015 /* SwiftMethod.swift in Sources */,
 				B9905F7C2727F19400B2C989 /* SwiftSet.swift in Sources */,
 				B974F30F272A57C10086F558 /* SwiftClass.swift in Sources */,
+				B97FD11F273D0F2C00B72E7D /* SwiftInit.swift in Sources */,
 				B974F30D272A41D80086F558 /* SwiftEnum.swift in Sources */,
 				B9D613562616BF0B00A48B63 /* AppDelegate.swift in Sources */,
 				B9AB7625269E7EED00365DE7 /* HomeViewController.swift in Sources */,

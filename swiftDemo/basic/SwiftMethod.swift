@@ -29,6 +29,38 @@ class SwiftMethod: NSObject {
         somePoint.moveBy(x: 11.5, y: 213.1)
         print("point x = \(somePoint.x),y = \(somePoint.y)")// 11.5 213.1
         
-        
+        var lever: LevelTracker = LevelTracker()
+        lever.advance(to: 10)
     }
+    
+    //类型方法，OC中的类方法
+    class func typeMethod() {
+        print(self)//在类型方法的方法体（body）中，self 属性指向这个类型本身，而不是类型的某个实例
+    }
+//    SwiftMethod.typeMethod()
+    
+    //在struct中声明类型方法使用static ？，使用class会报错
+    struct LevelTracker {
+        static var highestUnlockedLevel = 1 //static声明可以在类型方法中使用这个属性
+        var currentLevel = 1
+        static func unlock(_ level: Int) {
+            if level > highestUnlockedLevel { highestUnlockedLevel = level }
+        }
+        static func isUnlocked(_ level: Int) -> Bool {
+            return level <= highestUnlockedLevel
+        }
+        
+        @discardableResult
+        mutating func advance(to level: Int) -> Bool {
+            if LevelTracker.isUnlocked(level) {
+                currentLevel = level
+                return true
+            } else {
+                return false
+            }
+        }
+    }
+    
+    
+    
 }
