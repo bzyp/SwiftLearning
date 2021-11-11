@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class SwiftProperty: NSObject {
     
     func test() {
@@ -31,7 +32,7 @@ class SwiftProperty: NSObject {
         
         
         //计算属性
-
+        
         struct Point {
             var x = 0.0, y = 0.0
         }
@@ -89,6 +90,14 @@ class SwiftProperty: NSObject {
         
         rectangle.height = 19
         print(" rectangle.height = \(rectangle.height)")//rectangle.height = 12
+        
+        
+        //全局变量和局部变量
+        //全局变量是在函数、方法、闭包或任何类型之外定义的变量。局部变量是在函数、方法或闭包内部定义的变量
+        
+        //注意
+        //全局的常量或变量都是延迟计算的，跟 延时加载存储属性 相似，不同的地方在于，全局的常量或变量不需要标记 lazy 修饰符。
+        //局部范围的常量和变量从不延迟计算
         
         
         

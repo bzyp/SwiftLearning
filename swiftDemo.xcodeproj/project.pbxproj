@@ -12,6 +12,7 @@
 		B92904DB2721066B0035728F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904DA2721066B0035728F /* Block.swift */; };
 		B9415EF1272665DB00DE6EE2 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF0272665DB00DE6EE2 /* Operators.swift */; };
 		B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF22726AC7400DE6EE2 /* SwiftString.swift */; };
+		B974EAB3273BBD0500B41015 /* SwiftMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EAB2273BBD0500B41015 /* SwiftMethod.swift */; };
 		B974F30D272A41D80086F558 /* SwiftEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974F30C272A41D80086F558 /* SwiftEnum.swift */; };
 		B974F30F272A57C10086F558 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974F30E272A57C10086F558 /* SwiftClass.swift */; };
 		B974F311272A95C90086F558 /* SwiftProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974F310272A95C90086F558 /* SwiftProperty.swift */; };
@@ -57,6 +58,7 @@
 		B92904DA2721066B0035728F /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		B9415EF0272665DB00DE6EE2 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B9415EF22726AC7400DE6EE2 /* SwiftString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftString.swift; sourceTree = "<group>"; };
+		B974EAB2273BBD0500B41015 /* SwiftMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMethod.swift; sourceTree = "<group>"; };
 		B974F30C272A41D80086F558 /* SwiftEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnum.swift; sourceTree = "<group>"; };
 		B974F30E272A57C10086F558 /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
 		B974F310272A95C90086F558 /* SwiftProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProperty.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				B974F30C272A41D80086F558 /* SwiftEnum.swift */,
 				B974F30E272A57C10086F558 /* SwiftClass.swift */,
 				B974F310272A95C90086F558 /* SwiftProperty.swift */,
+				B974EAB2273BBD0500B41015 /* SwiftMethod.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				B977DE34271560800029BC8E /* MVVMView.swift in Sources */,
 				B98EDCFD26FC234A00B45BBF /* MVVMController.swift in Sources */,
 				B97B51AF269D35B60088B3B8 /* MainNavigationViewController.swift in Sources */,
+				B974EAB3273BBD0500B41015 /* SwiftMethod.swift in Sources */,
 				B9905F7C2727F19400B2C989 /* SwiftSet.swift in Sources */,
 				B974F30F272A57C10086F558 /* SwiftClass.swift in Sources */,
 				B974F30D272A41D80086F558 /* SwiftEnum.swift in Sources */,
