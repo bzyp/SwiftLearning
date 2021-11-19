@@ -42,6 +42,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let enmu = SwiftEnum()
         enmu.test()
         
+        let typeC = SwiftTypeConversion()
+        typeC.test()
+        
         
         return true
     }

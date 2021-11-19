@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		56778DCE7EF308F1024BEF64 /* Pods_swiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267A33D36605BE0ACE9AA107 /* Pods_swiftDemo.framework */; };
+		B91DDD33273E4817000301F0 /* SwitDeinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91DDD32273E4817000301F0 /* SwitDeinit.swift */; };
+		B91DDD35273E4CA8000301F0 /* SwiftOptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91DDD34273E4CA8000301F0 /* SwiftOptionalChaining.swift */; };
 		B924256726FDB725009D03F2 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924256626FDB725009D03F2 /* MVVMViewModel.swift */; };
 		B92904DB2721066B0035728F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904DA2721066B0035728F /* Block.swift */; };
+		B933192427478424009BFC48 /* SwiftAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933192327478424009BFC48 /* SwiftAsync.swift */; };
+		B933192627478704009BFC48 /* SwiftTypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933192527478704009BFC48 /* SwiftTypeConversion.swift */; };
 		B9415EF1272665DB00DE6EE2 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF0272665DB00DE6EE2 /* Operators.swift */; };
 		B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415EF22726AC7400DE6EE2 /* SwiftString.swift */; };
 		B974EAB3273BBD0500B41015 /* SwiftMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EAB2273BBD0500B41015 /* SwiftMethod.swift */; };
@@ -27,6 +31,7 @@
 		B9905F7C2727F19400B2C989 /* SwiftSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9905F7B2727F19400B2C989 /* SwiftSet.swift */; };
 		B9A1A2B4271FB75C0032D5AC /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1A2B3271FB75C0032D5AC /* Function.swift */; };
 		B9AB7625269E7EED00365DE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AB7624269E7EED00365DE7 /* HomeViewController.swift */; };
+		B9B9E027274625FC002709A3 /* SwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9E026274625FC002709A3 /* SwiftError.swift */; };
 		B9D613562616BF0B00A48B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D613552616BF0B00A48B63 /* AppDelegate.swift */; };
 		B9D6135C2616BF0D00A48B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D6135B2616BF0D00A48B63 /* Assets.xcassets */; };
 		B9D6135F2616BF0D00A48B63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D6135E2616BF0D00A48B63 /* Preview Assets.xcassets */; };
@@ -56,8 +61,12 @@
 /* Begin PBXFileReference section */
 		267A33D36605BE0ACE9AA107 /* Pods_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE4186F6878A6C6FE9E991 /* Pods-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-swiftDemo/Pods-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B91DDD32273E4817000301F0 /* SwitDeinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitDeinit.swift; sourceTree = "<group>"; };
+		B91DDD34273E4CA8000301F0 /* SwiftOptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalChaining.swift; sourceTree = "<group>"; };
 		B924256626FDB725009D03F2 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		B92904DA2721066B0035728F /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		B933192327478424009BFC48 /* SwiftAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAsync.swift; sourceTree = "<group>"; };
+		B933192527478704009BFC48 /* SwiftTypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypeConversion.swift; sourceTree = "<group>"; };
 		B9415EF0272665DB00DE6EE2 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B9415EF22726AC7400DE6EE2 /* SwiftString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftString.swift; sourceTree = "<group>"; };
 		B974EAB2273BBD0500B41015 /* SwiftMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMethod.swift; sourceTree = "<group>"; };
@@ -75,6 +84,7 @@
 		B9905F7B2727F19400B2C989 /* SwiftSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSet.swift; sourceTree = "<group>"; };
 		B9A1A2B3271FB75C0032D5AC /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		B9AB7624269E7EED00365DE7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B9B9E026274625FC002709A3 /* SwiftError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftError.swift; sourceTree = "<group>"; };
 		B9D613522616BF0B00A48B63 /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D613552616BF0B00A48B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D6135B2616BF0D00A48B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +162,11 @@
 				B974EAB2273BBD0500B41015 /* SwiftMethod.swift */,
 				B97FD11C273CEFEC00B72E7D /* SwiftInheritance.swift */,
 				B97FD11E273D0F2C00B72E7D /* SwiftInit.swift */,
+				B91DDD32273E4817000301F0 /* SwitDeinit.swift */,
+				B91DDD34273E4CA8000301F0 /* SwiftOptionalChaining.swift */,
+				B9B9E026274625FC002709A3 /* SwiftError.swift */,
+				B933192327478424009BFC48 /* SwiftAsync.swift */,
+				B933192527478704009BFC48 /* SwiftTypeConversion.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -405,10 +420,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9A1A2B4271FB75C0032D5AC /* Function.swift in Sources */,
+				B91DDD35273E4CA8000301F0 /* SwiftOptionalChaining.swift in Sources */,
+				B9B9E027274625FC002709A3 /* SwiftError.swift in Sources */,
 				B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */,
 				B9F24FBD272263BE00EE39BC /* Basic.swift in Sources */,
 				B98D660A27292A98004B654E /* SwiftControl.swift in Sources */,
 				B97FD11D273CEFEC00B72E7D /* SwiftInheritance.swift in Sources */,
+				B933192427478424009BFC48 /* SwiftAsync.swift in Sources */,
+				B91DDD33273E4817000301F0 /* SwitDeinit.swift in Sources */,
 				B92904DB2721066B0035728F /* Block.swift in Sources */,
 				B97B51AA269D34BE0088B3B8 /* MainTableBarController.swift in Sources */,
 				B98556FE26A6A0DB00CEEA75 /* HomeTableViewCell.swift in Sources */,
@@ -423,6 +442,7 @@
 				B974F30D272A41D80086F558 /* SwiftEnum.swift in Sources */,
 				B9D613562616BF0B00A48B63 /* AppDelegate.swift in Sources */,
 				B9AB7625269E7EED00365DE7 /* HomeViewController.swift in Sources */,
+				B933192627478704009BFC48 /* SwiftTypeConversion.swift in Sources */,
 				B974F311272A95C90086F558 /* SwiftProperty.swift in Sources */,
 				B924256726FDB725009D03F2 /* MVVMViewModel.swift in Sources */,
 			);

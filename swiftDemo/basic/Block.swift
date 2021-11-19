@@ -15,8 +15,8 @@ class Block: NSObject {
     func test() {
         
         print("\(NSStringFromClass(Block.self))")
-        //闭包表达式逐步优化
         
+        //闭包表达式逐步优化
         var reversedNames = names.sorted(by: backward(_:_:))
         print("reversedNames1 = \(reversedNames),\(names)")
         
