@@ -52,7 +52,6 @@ class SwiftTypeConversion: NSObject {
                 songCount += 1
             }
         }
-        
     }
     
     //向下转型
