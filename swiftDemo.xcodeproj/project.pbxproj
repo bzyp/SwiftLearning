@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56778DCE7EF308F1024BEF64 /* Pods_swiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267A33D36605BE0ACE9AA107 /* Pods_swiftDemo.framework */; };
+		B911E0E627571A5100DC4106 /* SwiftOpaqueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B911E0E527571A5100DC4106 /* SwiftOpaqueType.swift */; };
 		B91DDD33273E4817000301F0 /* SwitDeinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91DDD32273E4817000301F0 /* SwitDeinit.swift */; };
 		B91DDD35273E4CA8000301F0 /* SwiftOptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91DDD34273E4CA8000301F0 /* SwiftOptionalChaining.swift */; };
 		B924256726FDB725009D03F2 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924256626FDB725009D03F2 /* MVVMViewModel.swift */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		267A33D36605BE0ACE9AA107 /* Pods_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE4186F6878A6C6FE9E991 /* Pods-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-swiftDemo/Pods-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B911E0E527571A5100DC4106 /* SwiftOpaqueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOpaqueType.swift; sourceTree = "<group>"; };
 		B91DDD32273E4817000301F0 /* SwitDeinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitDeinit.swift; sourceTree = "<group>"; };
 		B91DDD34273E4CA8000301F0 /* SwiftOptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalChaining.swift; sourceTree = "<group>"; };
 		B924256626FDB725009D03F2 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				B97ECC17274B78CC00370997 /* SwiftExtension.swift */,
 				B98BBAAD274CD13B009018D1 /* SwiftProtocol.swift */,
 				B997FB90274E478C00A15267 /* SwiftGeneric.swift */,
+				B911E0E527571A5100DC4106 /* SwiftOpaqueType.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			files = (
 				B9A1A2B4271FB75C0032D5AC /* Function.swift in Sources */,
 				B98BBAAE274CD13B009018D1 /* SwiftProtocol.swift in Sources */,
+				B911E0E627571A5100DC4106 /* SwiftOpaqueType.swift in Sources */,
 				B91DDD35273E4CA8000301F0 /* SwiftOptionalChaining.swift in Sources */,
 				B9B9E027274625FC002709A3 /* SwiftError.swift in Sources */,
 				B9415EF32726AC7400DE6EE2 /* SwiftString.swift in Sources */,

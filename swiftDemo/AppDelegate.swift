@@ -46,6 +46,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         typeC.test()
         
         
+        let opaqueType = SwiftOpaqueType()
+        opaqueType.test()
+        
         return true
     }
     

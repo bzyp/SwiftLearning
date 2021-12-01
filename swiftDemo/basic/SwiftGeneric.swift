@@ -4,9 +4,26 @@
 //
 //  Created by 镭速iOS on 11/24/21.
 //  泛型
-//  https://swiftgg.gitbook.io/swift/swift-jiao-cheng/22_generics
+//  https://gitbook.gitbook.io/swift/swift-jiao-cheng/22_generics
 
 import UIKit
+
+protocol Container {
+    associatedtype Item
+    mutating func append(_ item: Item)
+    var count: Int { get }
+    subscript(i: Int) -> Item { get }
+}
+
+struct Stack<Element> {
+    var items: [Element] = []
+    mutating func push(_ item: Element) {
+        items.append(item)
+    }
+    mutating func pop() -> Element {
+        return items.removeLast()
+    }
+}
 
 class SwiftGeneric: NSObject {
     func test() {
@@ -45,5 +62,37 @@ class SwiftGeneric: NSObject {
     }
     
     
+    //泛型 Where 语句
+    //C1 必须符合 Container 协议（写作 C1: Container）。
+//    C2 必须符合 Container 协议（写作 C2: Container）。
+//    C1 的 Item 必须和 C2 的 Item 类型相同（写作 C1.Item == C2.Item）。
+//    C1 的 Item 必须符合 Equatable 协议（写作 C1.Item: Equatable）
+    func allItemMatch<C1: Container, C2: Container>(_ someContainer: C1, _ anotherContainer: C2) -> Bool where C1.Item == C2.Item, C1.Item: Equatable {
+        
+        // 检查两个容器含有相同数量的元素
+        if someContainer.count != anotherContainer.count {
+            return false
+        }
+        // 检查每一对元素是否相等
+        for i in 0..<someContainer.count {
+            if someContainer[i] != anotherContainer[i] {
+                return false
+            }
+        }
+
+        return true
+    }
+        
+
     
 }
+
+//具有泛型 Where 子句的扩展
+//你也可以使用泛型 where 子句作为扩展的一部分。基于以前的例子，下面的示例扩展了泛型 Stack 结构体
+//这个新的 isTop(_:) 方法首先检查这个栈是不是空的，然后比较给定的元素与栈顶部的元素。如果你尝试不用泛型 where 子句，会有一个问题：在 isTop(_:) 里面使用了 == 运算符，但是 Stack 的定义没有要求它的元素是符合 Equatable 协议的，所以使用 == 运算符导致编译时错误。使用泛型 where 子句可以为扩展添加新的条件，因此只有当栈中的元素符合 Equatable 协议时，扩展才会添加 isTop(_:) 方法
+extension Stack where Element: Equatable {
+    func isTop(_ item: Element) -> Bool {
+        return true
+    }
+}
+
